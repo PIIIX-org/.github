@@ -1,0 +1,37 @@
+name: Contributor Application
+description: Apply for an ongoing role (Developer, Designer, Docs/Content, Reviewer, or Community/Support) on a PIIIX project.
+title: "[Contributor Application] "
+labels: ["contributor-application"]
+body:
+  - type: dropdown
+    id: role
+    attributes:
+      label: Which role are you applying for?
+      options:
+        - Developer
+        - Designer
+        - Docs/Content
+        - Reviewer
+        - Community/Support
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: Which repository is this for?
+      placeholder: chapters, vectory, or both
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Links to your merged pull requests or prior activity
+      description: Paste links showing you meet the criteria in CONTRIBUTING.md.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else we should know?
+    validations:
+      required: false
