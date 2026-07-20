@@ -149,14 +149,25 @@ make it enforceable.
 ## 12. How to Sign
 
 You accept and agree to be bound by the terms of this Agreement by taking an
-affirmative electronic act clearly manifesting Your assent — specifically, by
-posting a comment stating "I have read the CLA Document and I hereby sign it" (or
-materially identical language directed by the automated process associated with a
-Project) on a pull request You submit to that Project. The Maintainer will retain a
-timestamped record of each such acceptance, identified by Your GitHub account and
-the associated commit(s), as the signed record of this Agreement. This method of
-acceptance is intended to satisfy applicable electronic signature law, including
-the Texas Uniform Electronic Transactions Act.
+affirmative electronic act clearly manifesting Your assent, as follows:
+
+1. Open a pull request to a Project.
+2. The CLA bot will comment asking You to sign.
+3. Reply with a comment containing the sentence "I have read the CLA Document
+   and I hereby sign the CLA," followed by Your full legal name and an email
+   address where You can be reached, for example:
+
+   > I have read the CLA Document and I hereby sign the CLA.
+   > Full legal name: Jane Doe
+   > Email: jane@example.com
+
+4. The bot will detect the signature sentence and mark Your pull request as
+   signed. Your full name and email, included in the same comment, become
+   part of the permanent, timestamped record of Your acceptance alongside
+   Your GitHub account and the associated commit(s).
+
+This method of acceptance is intended to satisfy applicable electronic
+signature law, including the Texas Uniform Electronic Transactions Act.
 
 ---
 *Please read this document carefully before agreeing to it.*
