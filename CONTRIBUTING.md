@@ -6,10 +6,25 @@ contribution, and how to apply for an ongoing role on a PIIIX project.
 ## Making a contribution
 
 1. Fork the repository (`chapters` or `vectory`) and open a pull request.
-2. On your first pull request, the CLA bot will ask you to sign the
-   [Individual CLA](https://github.com/PIIIX-org/.github/blob/main/CLA.md) by
-   posting the comment it gives you. This is required before any pull request
-   can be merged.
+2. On your first pull request, a bot will comment asking you to sign the
+   [Individual CLA](https://github.com/PIIIX-org/.github/blob/main/CLA.md).
+   This is required before any pull request can be merged — to sign:
+   1. Read the CLA at the link above.
+   2. Reply to the bot's comment on your pull request with a comment
+      containing this sentence: `I have read the CLA Document and I hereby
+      sign the CLA.`
+   3. On the same comment, add your full legal name and an email address
+      where you can be reached, for example:
+
+      ```
+      I have read the CLA Document and I hereby sign the CLA.
+      Full legal name: Jane Doe
+      Email: jane@example.com
+      ```
+
+   4. The bot updates your pull request's status automatically within about
+      a minute — no need to comment "recheck" unless it hasn't updated after
+      a few minutes.
 3. A Reviewer or Manager will review your pull request. Please be responsive
    to feedback.
 
