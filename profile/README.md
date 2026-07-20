@@ -2,8 +2,11 @@
 
 # PIIIX
 
-Open-source company. We build the tools a "finished" market forgot to build,
-using AI as the actual mechanism — not a feature bullet point.
+**We find the gap left in a market that looks finished, and ship the
+open-source fix.**
+
+Named for Earth's own coordinates, Planet III of star X, chosen so the
+target stays bigger than next quarter.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/PIIIX-org/chapters/blob/main/LICENSE)
 [![Contributing](https://img.shields.io/badge/contributing-guide-brightgreen.svg)](https://github.com/PIIIX-org/.github/blob/main/CONTRIBUTING.md)
@@ -12,36 +15,38 @@ using AI as the actual mechanism — not a feature bullet point.
 
 ---
 
+## What we do
+
+We find where a mature category still has a real gap, then ship the fix in
+the open, in code, with AI built into how the product works. Our own team
+builds it. So do outside contributors who earn the access.
+
 ## Products
 
-**[Chapters](https://github.com/PIIIX-org/chapters)** — a self-hostable
-knowledge base: markdown notes, a graph AI agents can actually query and edit
-through MCP, real-time multiplayer editing. Backend's done — Fastify, Yjs,
-Postgres + pgvector, local embeddings. UI is next.
+**Chapters** is a self-hostable knowledge base: markdown notes, a knowledge
+graph AI agents can query and edit through MCP, real-time multiplayer
+editing built on Yjs. The backend is shipped: Fastify, Postgres with
+pgvector, local embeddings. The UI is next.
+→ [github.com/PIIIX-org/chapters](https://github.com/PIIIX-org/chapters)
 
-**[Vectory](https://github.com/PIIIX-org/vectory)** — a canvas you design on
-that writes real, inspectable HTML/CSS as you go, so the output isn't a
-black box you reverse-engineer later. Still in the research and architecture
-stage.
+**Vectory** is a canvas you design on that writes real HTML and CSS as you
+go, so the output stays inspectable instead of locked behind a no-code
+black box. It's in the architecture and research stage now.
+→ [github.com/PIIIX-org/vectory](https://github.com/PIIIX-org/vectory)
 
-We also build closed-source products where a client needs them — what's
-public here is the open-source half of the company, not the whole thing.
+We build closed-source products too, for clients who need them. What's
+public here is half the company.
 
-## Contributing
+## How we work
 
-Fork it, open a PR. Everyone signs a [CLA](https://github.com/PIIIX-org/.github/blob/main/CLA.md)
-on their first one. Keep contributing well and you earn a role with real
-repo access — Developer, Reviewer, Designer, Docs, Community — the path for
-each is spelled out in [CONTRIBUTING.md](https://github.com/PIIIX-org/.github/blob/main/CONTRIBUTING.md),
-not handed out by default.
+Fork a repo. Open a pull request. Sign the CLA in a comment on that PR.
+Contribute well and you earn write access: Developer, Reviewer, Designer,
+Docs, Community, each with a bar defined in
+[CONTRIBUTING.md](https://github.com/PIIIX-org/.github/blob/main/CONTRIBUTING.md).
+Nothing merges without a passing CLA check.
 
-## Hiring / partnering
+## Hiring and partnerships
 
-If you're sizing up this team for a role or a deal, the repos are the pitch.
-Read the code before you read anything we'd say about ourselves.
-
-## Why "PIIIX"
-
-Earth's own cosmic address: **P**lanet, **III** because it's the third one,
-**X** for the star it orbits. A name picked to make you think past the next
-quarter.
+Look at Chapters and Vectory directly before you take our word for
+anything. The architecture choices and the commit history say what this
+team can do.
