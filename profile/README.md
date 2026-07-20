@@ -29,7 +29,16 @@ ship the fix as a real, running product.
 
 ## Products
 
+<br>
+
 ### Chapters
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/chapters/01-onboarding-flow.png" width="220"/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/chapters/04-live-collaboration-flow.png" width="220"/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/chapters/08-ai-navigation-flow.png" width="220"/>
+
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=14&pause=1500&center=true&width=460&height=25&color=888888&lines=Backend%3A+shipped;UI%3A+in+progress;Codebase+mapping%3A+live" alt="Chapters status" />
+</div>
+
 A self-hostable knowledge base: markdown notes, a knowledge graph AI
 agents can query and edit through MCP with full tool parity. Real-time
 multiplayer editing runs on Yjs, with per-operation permission checks and
@@ -57,7 +66,20 @@ deploy plus a security-critical CRDT relay rebuilt on a less mature
 library. The UI is next.
 → [github.com/PIIIX-org/chapters](https://github.com/PIIIX-org/chapters)
 
+<br>
+
+---
+
+<br>
+
 ### Vectory
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/vectory/01.png" width="220"/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/vectory/05.png" width="220"/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/vectory/12.png" width="220"/>
+
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=14&pause=1500&center=true&width=460&height=25&color=888888&lines=Research%3A+complete;Architecture%3A+mapped;Build%3A+not+started" alt="Vectory status" />
+</div>
+
 A canvas you design on that writes real, production-ready HTML and CSS as
 you build, with a live preview and an inspectable code panel over the
 output. Built for designers who want to ship a real site without becoming
@@ -84,7 +106,20 @@ pane that keeps the generated code visible and editable throughout.
 Currently in the architecture and competitive-research stage.
 → [github.com/PIIIX-org/vectory](https://github.com/PIIIX-org/vectory)
 
+<br>
+
+---
+
+<br>
+
 ### Yildizim
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/yildizim/first-light.png" width="220"/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/yildizim/black-hole.png" width="220"/>
+
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=14&pause=1500&center=true&width=460&height=25&color=888888&lines=Status%3A+closed-source;37+pull+requests+shipped;60fps+at+371%2C000+notes" alt="Yildizim status" />
+</div>
+
 A closed-source, gamified 3D visualization layer for hosted Chapters: a
 galaxy where every star is a note, built so a personal knowledge graph
 feels explorable. Shipped and running today, inside Chapters.
@@ -101,6 +136,10 @@ one large redesign: audio, color palette, camera rotation, depth of
 field, minimap, polish, each phase shipped and merged as its own reviewed
 pull request. 37 pull requests in, and running live inside Chapters
 today.
+
+<br>
+
+---
 
 ## How we're organized
 
