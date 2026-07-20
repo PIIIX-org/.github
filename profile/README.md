@@ -2,51 +2,46 @@
 
 # PIIIX
 
-**We find the gaps in markets everyone already assumes are solved — and fill
-them with open-source, AI-native tools.**
+Open-source company. We build the tools a "finished" market forgot to build,
+using AI as the actual mechanism — not a feature bullet point.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/PIIIX-org/chapters/blob/main/LICENSE)
-[![Contributor Covenant](https://img.shields.io/badge/Contributing-guide-brightgreen.svg)](https://github.com/PIIIX-org/.github/blob/main/CONTRIBUTING.md)
+[![Contributing](https://img.shields.io/badge/contributing-guide-brightgreen.svg)](https://github.com/PIIIX-org/.github/blob/main/CONTRIBUTING.md)
 
 </div>
 
 ---
 
-## What we do
+## Products
 
-Most "solved" markets aren't. Note-taking, design tooling, developer
-workflows — the incumbents got there first, but they didn't get everything
-right. We look for the gap between what a mature market ships and what
-people actually need, and we build the fix in the open — using AI as a core
-part of how the product works, not a bolted-on feature.
+**[Chapters](https://github.com/PIIIX-org/chapters)** — a self-hostable
+knowledge base: markdown notes, a graph AI agents can actually query and edit
+through MCP, real-time multiplayer editing. Backend's done — Fastify, Yjs,
+Postgres + pgvector, local embeddings. UI is next.
 
-Our products are built by our own team and by open-source contributors side
-by side. If you can ship, there's a seat at the table.
+**[Vectory](https://github.com/PIIIX-org/vectory)** — a canvas you design on
+that writes real, inspectable HTML/CSS as you go, so the output isn't a
+black box you reverse-engineer later. Still in the research and architecture
+stage.
 
-## What we've built
+We also build closed-source products where a client needs them — what's
+public here is the open-source half of the company, not the whole thing.
 
-| Project | What it is | Status |
-|---|---|---|
-| **[Chapters](https://github.com/PIIIX-org/chapters)** | A self-hostable "second brain": markdown notes, an AI-navigable knowledge graph, and MCP-first architecture so AI agents are first-class citizens, not an afterthought. | Backend complete (Node/Fastify, Yjs real-time collaboration, Postgres + pgvector, local embeddings) — UI in progress |
-| **[Vectory](https://github.com/PIIIX-org/vectory)** | A canvas-first design tool where an LLM turns your layout into real, inspectable, production-ready HTML/CSS as you build — the gap between no-code lock-in and hand-coding from scratch. | Architecture and competitive research stage |
+## Contributing
 
-We also build closed-source products where the market calls for it — the
-open-source work above is what's public, not the entirety of what we ship.
+Fork it, open a PR. Everyone signs a [CLA](https://github.com/PIIIX-org/.github/blob/main/CLA.md)
+on their first one. Keep contributing well and you earn a role with real
+repo access — Developer, Reviewer, Designer, Docs, Community — the path for
+each is spelled out in [CONTRIBUTING.md](https://github.com/PIIIX-org/.github/blob/main/CONTRIBUTING.md),
+not handed out by default.
 
-## How we work
+## Hiring / partnering
 
-PIIIX runs on real process, not vibes: a defined [contribution path with
-role-based access](https://github.com/PIIIX-org/.github/blob/main/CONTRIBUTING.md)
-(Developer, Reviewer, Designer, Docs, Community/Support — earned, not hand-
-out), a signed [Individual CLA](https://github.com/PIIIX-org/.github/blob/main/CLA.md)
-on every contribution, and CI-enforced checks before anything merges.
+If you're sizing up this team for a role or a deal, the repos are the pitch.
+Read the code before you read anything we'd say about ourselves.
 
-Interested in what we're building, or in joining the team? Start with the
-repos above — the code and the commit history say more than a job posting
-could.
+## Why "PIIIX"
 
-## Naming
-
-**PIIIX** is Earth's own address, spelled out: **P**lanet, **III** (the third
-one), of the star **X** — this solar system's sun. It's a reminder to think
-at planetary scale, not quarterly scale.
+Earth's own cosmic address: **P**lanet, **III** because it's the third one,
+**X** for the star it orbits. A name picked to make you think past the next
+quarter.
