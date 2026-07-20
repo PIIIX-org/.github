@@ -37,8 +37,24 @@ instant revocation. Hybrid keyword and semantic search runs permission-
 filtered, in-query. Export is a first-class feature: zip exports, expiring
 share links, full-instance backup and restore.
 
-The backend is shipped: Fastify, Postgres with pgvector, local ONNX
-embeddings. The UI is next.
+**Why we built it.** Most knowledge tools bolt AI on top, a chat window
+pointed at your notes after the fact. We wanted AI access built into the
+data layer itself, so an agent navigates the actual graph instead of
+guessing from a prompt. That became the single governing criterion for
+every stack decision that followed: how well it serves AI navigability.
+
+**How we build it.** TypeScript end to end: one language, one runtime, one
+deployable unit. Fastify for the API. Yjs and Hocuspocus run the realtime
+CRDT relay in the same process as the API, because MCP writes need to
+flow through that relay as first-class participants with per-operation
+permission checks. Postgres holds accounts, sessions, and the search
+index; notes stay plain markdown files on disk. Embeddings run locally
+through Transformers.js, so note content never leaves the instance. We
+seriously considered a Python/FastAPI backend for its graph and embedding
+libraries, then rejected it: those advantages are batch-shaped and
+invisible to an AI reading the graph, and the cost was two runtimes to
+deploy plus a security-critical CRDT relay rebuilt on a less mature
+library. The UI is next.
 → [github.com/PIIIX-org/chapters](https://github.com/PIIIX-org/chapters)
 
 ### Vectory
@@ -47,6 +63,24 @@ you build, with a live preview and an inspectable code panel over the
 output. Built for designers who want to ship a real site without becoming
 developers, and for developers who want a faster prototyping loop.
 
+**Why we're investigating it.** The AI design-tool market looks crowded
+at a glance: Onlook covers canvas UX and AI codegen for React, Anthropic
+ships its own code-powered prototyping tool on its flagship model,
+Lovable raised $330M proving how large the category already is. Static
+marketing-site HTML and CSS, built from a Figma-style canvas as the entry
+point, was still open. Before writing a line of product code, we ran the
+research to check whether that gap was real.
+
+**How we build it.** Research first: a multi-agent research harness ran
+five parallel search angles across fifteen sources, with every claim
+adversarially re-verified across three independent passes before it
+counted as fact. Twelve architecture diagrams map the full system ahead
+of implementation: the client/server split, the codegen pipeline, the
+data model, real-time sync. The plan underneath it: a designer places
+shapes, text, and images on a canvas, and an LLM turns that canvas state
+into semantic, exportable HTML and CSS as they work, with a live preview
+pane that keeps the generated code visible and editable throughout.
+
 Currently in the architecture and competitive-research stage.
 → [github.com/PIIIX-org/vectory](https://github.com/PIIIX-org/vectory)
 
@@ -54,6 +88,19 @@ Currently in the architecture and competitive-research stage.
 A closed-source, gamified 3D visualization layer for hosted Chapters: a
 galaxy where every star is a note, built so a personal knowledge graph
 feels explorable. Shipped and running today, inside Chapters.
+
+**Why we built it.** A knowledge graph with hundreds of thousands of
+notes is hard to browse as a list or a flat map. We wanted exploring your
+own notes to feel like discovery: a 3D space you fly through, gamified
+enough that returning to your own knowledge base is something you want
+to do, not a chore.
+
+**How we build it.** A real-time 3D renderer holding 60 frames per second
+at 371,000 notes. Development runs in research-backed phases rather than
+one large redesign: audio, color palette, camera rotation, depth of
+field, minimap, polish, each phase shipped and merged as its own reviewed
+pull request. 37 pull requests in, and running live inside Chapters
+today.
 
 ## How we're organized
 
