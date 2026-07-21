@@ -1,11 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=PIIIX&fontSize=68&fontAlignY=36&fontColor=ffffff&desc=Open-source%20company%20finding%20the%20gaps%20left%20in%20finished%20markets&descAlignY=58&descSize=17&animation=fadeIn" width="100%"/>
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/orbit.svg" width="100%" alt="The PIIIX system: Chapters, Vectory, and Yildizim orbiting the PIIIX star"/>
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1200&center=true&vCenter=true&width=720&color=6C63FF&lines=We+find+the+gap+a+finished+market+left+behind.;We+ship+the+fix+in+the+open.;Built+by+our+team+and+contributors+who+earn+it." alt="Typing SVG" />
-
-Named for Earth's own coordinates, Planet III of star X, chosen so the
-target stays bigger than next quarter.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/PIIIX-org/chapters/blob/main/LICENSE)
 [![Contributing](https://img.shields.io/badge/contributing-guide-brightgreen.svg)](https://github.com/PIIIX-org/.github/blob/main/CONTRIBUTING.md)
@@ -172,5 +169,5 @@ anything. The architecture choices and the commit history say what this
 team can do.
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/footer.svg" width="100%" alt=""/>
 </div>
