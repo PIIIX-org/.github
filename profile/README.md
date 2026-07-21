@@ -4,11 +4,13 @@
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1200&center=true&vCenter=true&width=720&color=6C63FF&lines=We+find+the+gap+a+finished+market+left+behind.;We+ship+the+fix+in+the+open.;Built+by+our+team+and+contributors+who+earn+it." alt="Typing SVG" />
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/PIIIX-org/chapters/blob/main/LICENSE)
-[![Contributing](https://img.shields.io/badge/contributing-guide-brightgreen.svg)](https://github.com/PIIIX-org/.github/blob/main/CONTRIBUTING.md)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](https://github.com/PIIIX-org/chapters)
-[![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)](https://github.com/PIIIX-org/chapters)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)](https://github.com/PIIIX-org/chapters)
+[![License: MIT](https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/badges/license.svg)](https://github.com/PIIIX-org/chapters/blob/main/LICENSE)
+[![Contributing guide](https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/badges/contributing.svg)](https://github.com/PIIIX-org/.github/blob/main/CONTRIBUTING.md)
+[![MCP-first](https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/badges/mcp.svg)](https://github.com/PIIIX-org/chapters)
+[![TypeScript](https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/badges/tech-typescript.svg)](https://github.com/PIIIX-org/chapters)
+[![Node.js](https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/badges/tech-nodejs.svg)](https://github.com/PIIIX-org/chapters)
+[![Fastify](https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/badges/tech-fastify.svg)](https://github.com/PIIIX-org/chapters)
+[![PostgreSQL](https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/badges/tech-postgresql.svg)](https://github.com/PIIIX-org/chapters)
 
 </div>
 
