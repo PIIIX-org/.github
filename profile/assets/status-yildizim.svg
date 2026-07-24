@@ -1,0 +1,6 @@
+<svg width="460" height="26" viewBox="0 0 460 26" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Closed-source / 37 pull requests shipped / 60fps at 371,000 notes">
+<title>Closed-source / 37 pull requests shipped / 60fps at 371,000 notes</title>
+<text x="230.0" y="17.8" text-anchor="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#8b8fa3" opacity="0">Closed-source<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.0000;0.0000;0.0200;0.3133;0.3333;1.0000" dur="7s" repeatCount="indefinite"/></text>
+<text x="230.0" y="17.8" text-anchor="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#8b8fa3" opacity="0">37 pull requests shipped<animate attributeName="opacity" values="0;0;0;1;1;0;0" keyTimes="0.0000;0.3332;0.3333;0.3533;0.6467;0.6667;1.0000" dur="7s" repeatCount="indefinite"/></text>
+<text x="230.0" y="17.8" text-anchor="middle" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#8b8fa3" opacity="0">60fps at 371,000 notes<animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0.0000;0.6666;0.6667;0.6867;0.9800;1.0000" dur="7s" repeatCount="indefinite"/></text>
+</svg>

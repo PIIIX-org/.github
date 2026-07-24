@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/orbit.svg" width="100%" alt="The PIIIX system: Chapters, Vectory, and Yildizim orbiting the PIIIX star"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1200&center=true&vCenter=true&width=720&color=6C63FF&lines=We+find+the+gap+a+finished+market+left+behind.;We+ship+the+fix+in+the+open.;Built+by+our+team+and+contributors+who+earn+it." alt="Typing SVG" />
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/header-cycle.svg" width="720" alt="We find the gap a finished market left behind. We ship the fix in the open. Built by our team and contributors who earn it." />
 
 [![License: MIT](https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/badges/license.svg)](https://github.com/PIIIX-org/chapters/blob/main/LICENSE)
 [![Contributing guide](https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/badges/contributing.svg)](https://github.com/PIIIX-org/.github/blob/main/CONTRIBUTING.md)
@@ -33,9 +33,9 @@ ship the fix as a real, running product.
 ### Chapters
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/chapters/01-onboarding-flow.png" width="220"/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/chapters/04-live-collaboration-flow.png" width="220"/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/chapters/08-ai-navigation-flow.png" width="220"/>
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/chapters/01-onboarding-flow.png" width="220" alt="Chapters onboarding flow diagram"/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/chapters/04-live-collaboration-flow.png" width="220" alt="Chapters live collaboration flow diagram"/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/chapters/08-ai-navigation-flow.png" width="220" alt="Chapters AI-navigation flow diagram"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=14&pause=1500&center=true&width=460&height=25&color=888888&lines=Backend%3A+shipped;UI%3A+in+progress;Codebase+mapping%3A+live" alt="Chapters status" />
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/status-chapters.svg" width="460" alt="Chapters status: backend shipped, UI in progress, codebase mapping live" />
 </div>
 
 A self-hostable knowledge base: markdown notes, a knowledge graph AI
@@ -74,9 +74,9 @@ library. The UI is next.
 ### Vectory
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/vectory/01.png" width="220"/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/vectory/05.png" width="220"/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/vectory/12.png" width="220"/>
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/vectory/01.png" width="220" alt="Vectory architecture diagram (system overview)"/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/vectory/05.png" width="220" alt="Vectory architecture diagram (code-generation pipeline)"/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/vectory/12.png" width="220" alt="Vectory architecture diagram (interconnection map)"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=14&pause=1500&center=true&width=460&height=25&color=888888&lines=Research%3A+complete;Architecture%3A+mapped;Build%3A+not+started" alt="Vectory status" />
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/status-vectory.svg" width="460" alt="Vectory status: research complete, architecture mapped, build not started" />
 </div>
 
 A canvas you design on that writes real, production-ready HTML and CSS as
@@ -114,9 +114,9 @@ Currently in the architecture and competitive-research stage.
 ### Yildizim
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/yildizim/first-light.png" width="220"/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/yildizim/black-hole.png" width="220"/>
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/yildizim/first-light.png" width="220" alt="Yildizim: a knowledge galaxy at first light"/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/yildizim/black-hole.png" width="220" alt="Yildizim: a dense note cluster rendered as a black hole"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=14&pause=1500&center=true&width=460&height=25&color=888888&lines=Status%3A+closed-source;37+pull+requests+shipped;60fps+at+371%2C000+notes" alt="Yildizim status" />
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/status-yildizim.svg" width="460" alt="Yildizim status: closed-source, 37 pull requests shipped, 60fps at 371,000 notes" />
 </div>
 
 A closed-source, gamified 3D visualization layer for hosted Chapters: a
@@ -173,3 +173,6 @@ team can do.
 <div align="center">
 <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/footer.svg" width="100%" alt=""/>
 </div>
+
+<!-- forged-with: git-a-profile -->
+<sub>Forged with <a href="https://github.com/PIIIX-org/git-a-profile">git-a-profile</a></sub>
