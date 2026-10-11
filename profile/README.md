@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/system.svg" width="100%" alt="The PIIIX system: an orange star with four planets on tilted orbits. git-a-profile is closest, then Elara with its moon Yildizim, then inter.face and website-pitch-pipeline. Vectory is a comet parked at the far end of a long dashed orbit, tail pointing away from the star."/>
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/forge/system/profile/assets/system.svg" width="100%" alt="The PIIIX system: an orange star with four planets on tilted orbits. git-a-profile is closest, then Elara with its moon Yildizim, then inter.face and website-pitch-pipeline. Vectory is a comet parked at the far end of a long dashed orbit, tail pointing away from the star."/>
 
-<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/almanac.svg" width="100%" alt="PIIIX almanac: license MIT; contributing by fork, pull request and CLA; 6 bodies; 1 star."/>
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/forge/system/profile/assets/almanac.svg" width="100%" alt="PIIIX almanac: license MIT; contributing by fork, pull request and CLA; 6 bodies; 1 star."/>
 
 </div>
 
@@ -25,7 +25,7 @@ Last observed 2026-10-11.
 
 ### Elara
 
-<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/ephemeris/elara.svg" width="100%" alt="Elara ephemeris: status in testing, 684 commits, 281 merged pull requests, first light 2026-07-09, last commit 2026-10-11, source public."/>
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/forge/system/profile/assets/ephemeris/elara.svg" width="100%" alt="Elara ephemeris: status in testing, 684 commits, 281 merged pull requests, first light 2026-07-09, last commit 2026-10-11, source public."/>
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/PIIIX-org/chapters/main/assets/hero.svg" width="100%" alt="Elara's own banner: the Knowledge Engine Observatory flight deck."/>
@@ -57,10 +57,10 @@ the product name. Bugs found in testing are filed as
 <summary><b>Its moon: Yildizim</b> (closed source, prototype, paused since July)</summary>
 <br>
 
-<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/ephemeris/yildizim.svg" width="100%" alt="Yildizim ephemeris: status prototype, paused; 80 commits; 37 merged pull requests; first light 2026-07-17; last commit 2026-07-19; source private."/>
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/forge/system/profile/assets/ephemeris/yildizim.svg" width="100%" alt="Yildizim ephemeris: status prototype, paused; 80 commits; 37 merged pull requests; first light 2026-07-17; last commit 2026-07-19; source private."/>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/yildizim/first-light.png" width="280" alt="Yildizim: a sky of galaxies, each one a knowledge base."/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/yildizim/tier2-vault-stars.png" width="280" alt="Yildizim: inside a galaxy, vaults resolved as stars."/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/yildizim/tier3-note-system.png" width="280" alt="Yildizim: inside a vault, notes as planets orbiting their star."/>
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/forge/system/profile/assets/yildizim/first-light.png" width="280" alt="Yildizim: a sky of galaxies, each one a knowledge base."/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/forge/system/profile/assets/yildizim/tier2-vault-stars.png" width="280" alt="Yildizim: inside a galaxy, vaults resolved as stars."/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/forge/system/profile/assets/yildizim/tier3-note-system.png" width="280" alt="Yildizim: inside a vault, notes as planets orbiting their star."/>
 </div>
 
 A 3D galaxy view for Elara: every knowledge base a galaxy, every vault a
@@ -77,7 +77,7 @@ is from a generated dataset, not from a real knowledge base.
 
 ### inter.face
 
-<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/ephemeris/inter-face.svg" width="100%" alt="inter.face ephemeris: status in testing, 71 commits, 2 merged pull requests, first light 2026-07-28, last commit 2026-08-17, source public."/>
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/forge/system/profile/assets/ephemeris/inter-face.svg" width="100%" alt="inter.face ephemeris: status in testing, 71 commits, 2 merged pull requests, first light 2026-07-28, last commit 2026-08-17, source public."/>
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/PIIIX-org/inter.face/main/gallery/piiix-marketing-kintsugi-wall.png" width="720" alt="An inter.face run for the PIIIX marketing site: a kintsugi wall concept board."/>
@@ -104,7 +104,7 @@ Taha's portfolio was its first field run.
 
 ### git-a-profile
 
-<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/ephemeris/git-a-profile.svg" width="100%" alt="git-a-profile ephemeris: status done, 14 commits, 1 merged pull request, first light 2026-07-24, last commit 2026-07-24, source public."/>
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/forge/system/profile/assets/ephemeris/git-a-profile.svg" width="100%" alt="git-a-profile ephemeris: status done, 14 commits, 1 merged pull request, first light 2026-07-24, last commit 2026-07-24, source public."/>
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/PIIIX-org/git-a-profile/main/assets/banner.svg" width="100%" alt="git-a-profile banner: forge a one-of-a-kind GitHub profile, org, or project README."/>
@@ -124,7 +124,7 @@ made with it, as were six other documented profiles.
 
 ### website-pitch-pipeline
 
-<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/ephemeris/website-pitch-pipeline.svg" width="100%" alt="website-pitch-pipeline ephemeris: status process being reworked, 19 commits, 0 merged pull requests, first light 2026-07-23, last commit 2026-09-16, source public."/>
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/forge/system/profile/assets/ephemeris/website-pitch-pipeline.svg" width="100%" alt="website-pitch-pipeline ephemeris: status process being reworked, 19 commits, 0 merged pull requests, first light 2026-07-23, last commit 2026-09-16, source public."/>
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/PIIIX-org/website-pitch-pipeline/main/assets/hero-banner.svg" width="100%" alt="website-pitch-pipeline banner: a cyanotype blueprint of a storefront homepage on a planning table, stamped CHECKED: HUMAN."/>
@@ -145,7 +145,7 @@ it runs again.
 
 ### Vectory
 
-<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/ephemeris/vectory.svg" width="100%" alt="Vectory ephemeris: status on hold until funded, 5 commits, 0 merged pull requests, first light 2026-07-07, last commit 2026-07-20, source public."/>
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/forge/system/profile/assets/ephemeris/vectory.svg" width="100%" alt="Vectory ephemeris: status on hold until funded, 5 commits, 0 merged pull requests, first light 2026-07-07, last commit 2026-07-20, source public."/>
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/vectory/01.png" width="220" alt="Vectory architecture diagram: system overview."/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/vectory/05.png" width="220" alt="Vectory architecture diagram: code-generation pipeline."/> <img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/assets/vectory/12.png" width="220" alt="Vectory architecture diagram: interconnection map."/>
@@ -166,7 +166,7 @@ then, [ArtCraft](https://getartcraft.com/) and
 Commits per week, per body, since the first commit in July. Paused work
 goes flat instead of being described as alive.
 
-<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/lightcurve.svg" width="100%" alt="Light curve of commits per week. Elara is active from July through October. git-a-profile, Yildizim, inter.face and Vectory each have one burst in July or August and are flat afterwards. website-pitch-pipeline has a July burst and one commit in September."/>
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/forge/system/profile/assets/lightcurve.svg" width="100%" alt="Light curve of commits per week. Elara is active from July through October. git-a-profile, Yildizim, inter.face and Vectory each have one burst in July or August and are flat afterwards. website-pitch-pipeline has a July burst and one commit in September."/>
 
 ## How we're organized
 
@@ -188,7 +188,7 @@ bar for each one is in
 A pull request does not merge without a passing CLA check.
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/PIIIX-org/.github/main/profile/assets/footer.svg" width="100%" alt="The PIIIX star low on a dark horizon."/>
+<img src="https://raw.githubusercontent.com/PIIIX-org/.github/forge/system/profile/assets/footer.svg" width="100%" alt="The PIIIX star low on a dark horizon."/>
 </div>
 
 <!-- forged-with: git-a-profile -->
