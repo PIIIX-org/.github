@@ -51,19 +51,32 @@ def gh(*args):
     return subprocess.run(["gh", "api", *args], capture_output=True, text=True, check=True).stdout
 
 def fetch():
+    """Pull every body from the API. A body the token cannot read (private repo on a
+    scoped Actions token) keeps its last committed numbers from data.json."""
     out = {"fetched": dt.date.today().isoformat(), "bodies": {}}
+    prev = json.load(open(DATA))["bodies"] if os.path.exists(DATA) else {}
     for b in BODIES:
         r = b["repo"]
+        try:
+            out["bodies"][b["key"]] = fetch_body(r)
+        except subprocess.CalledProcessError as e:
+            if b["key"] not in prev:
+                raise
+            print(f"warn: {r} unreadable with this token, keeping committed data", file=sys.stderr)
+            out["bodies"][b["key"]] = prev[b["key"]]
+    return out
+
+def fetch_body(r):
+    if True:
         dates = gh("--paginate", f"repos/{ORG}/{r}/commits?per_page=100", "--jq", ".[].commit.author.date").split()
         days = sorted(dt.date.fromisoformat(x[:10]) for x in dates)
         weeks = collections.Counter((d - dt.timedelta(days=d.weekday())).isoformat() for d in days)
         prs = int(gh(f"search/issues?q=repo:{ORG}/{r}+is:pr+is:merged", "--jq", ".total_count"))
         meta = json.loads(gh(f"repos/{ORG}/{r}", "--jq", "{created_at,language,private}"))
-        out["bodies"][b["key"]] = dict(
+        return dict(
             commits=len(days), merged_prs=prs, first=days[0].isoformat(), last=days[-1].isoformat(),
             created=meta["created_at"][:10], language=meta["language"], private=meta["private"],
             weekly=dict(sorted(weeks.items())))
-    return out
 
 # -------------------------------------------------------------- helpers ----
 
