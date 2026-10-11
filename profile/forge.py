@@ -148,7 +148,7 @@ def hero(data):
         fill = "url(#planet)"
         inner = [f'<circle r="{r:.1f}" fill="{fill}"/>']
         # label
-        inner.append(f'<text x="{r+8:.0f}" y="4" font-size="12" class="serif">{esc(b["name"])}</text>')
+        inner.append(f'<text y="{r+16:.0f}" text-anchor="middle" font-size="12" class="serif">{esc(b["name"])}</text>')
         # moon: unlabeled in motion; named in the planet's own label instead
         for m in BODIES:
             if m.get("moon_of") == b["key"]:
@@ -179,7 +179,7 @@ def hero(data):
     g.append(f'''<g transform="translate({cx_c:.1f},{CY})">
   <path d="M0,-2 L-80,-11 L-80,11 L0,2 Z" fill="url(#tail)" opacity=".8"/>
   <circle r="4.5" fill="url(#planet)"/>
-  <text x="10" y="-10" font-size="12" class="serif">{esc(v["name"])}</text>
+  <text y="20" text-anchor="middle" font-size="12" class="serif">{esc(v["name"])}</text>
 </g>''')
     g.append(f'''<text x="48" y="64" font-size="40" class="serif" letter-spacing="3">PIIIX</text>
 </svg>''')
