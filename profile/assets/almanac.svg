@@ -4,5 +4,4 @@
 <line x1="0" y1=".5" x2="900" y2=".5" stroke="#434241"/><line x1="0" y1="43.5" x2="900" y2="43.5" stroke="#434241"/>
 <circle cx="22" cy="22.0" r="5" fill="#fd9f13"/>
 <text x="44" y="15" font-size="8.5" class="mut" letter-spacing="1">LICENSE</text><text x="44" y="31" font-size="12">MIT</text><text x="134" y="15" font-size="8.5" class="mut" letter-spacing="1">CONTRIBUTING</text><text x="134" y="31" font-size="12">fork · PR · sign the CLA</text><text x="354" y="15" font-size="8.5" class="mut" letter-spacing="1">BODIES</text><text x="354" y="31" font-size="12">6</text><text x="444" y="15" font-size="8.5" class="mut" letter-spacing="1">STAR</text><text x="444" y="31" font-size="12">1</text>
-<text x="884" y="27" font-size="10" text-anchor="end" class="mut">observed 2026-10-11</text>
 </svg>

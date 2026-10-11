@@ -142,7 +142,6 @@ def hero(data):
     # the star
     g.append(f'<g class="pulse"><circle cx="{CX}" cy="{CY}" r="110" fill="url(#corona)"/></g>')
     g.append(f'<circle cx="{CX}" cy="{CY}" r="26" fill="url(#star)"/>')
-    g.append(f'<text x="{CX}" y="{CY+58}" text-anchor="middle" font-size="13" class="serif" fill="{AMBER}">PIIIX</text>')
 
     def planet_group(b, d):
         r = radius(d["commits"])
@@ -150,13 +149,11 @@ def hero(data):
         inner = [f'<circle r="{r:.1f}" fill="{fill}"/>']
         # label
         inner.append(f'<text x="{r+8:.0f}" y="4" font-size="12" class="serif">{esc(b["name"])}</text>')
-        inner.append(f'<text x="{r+8:.0f}" y="18" font-size="9.5" class="mut">{esc(b["status"])}</text>')
         # moon: unlabeled in motion; named in the planet's own label instead
         for m in BODIES:
             if m.get("moon_of") == b["key"]:
                 mr = 3.2
                 md = r + 14
-                inner.append(f'<text x="{r+8:.0f}" y="31" font-size="9.5" class="mut">moon: {esc(m["name"])} (paused)</text>')
                 inner.append(f'''<ellipse rx="{md}" ry="{md*SQ:.1f}" fill="none" stroke="{STARS}" stroke-opacity=".3" stroke-width=".8"/>
 <g transform="scale(1,{SQ})"><g class="spin" style="animation-duration:9s"><g transform="translate({md},0)"><g class="spin rev" style="animation-duration:9s"><g transform="scale(1,{1/SQ:.3f})">
 <circle r="{mr}" fill="url(#dim)"/>
@@ -183,12 +180,8 @@ def hero(data):
   <path d="M0,-2 L-80,-11 L-80,11 L0,2 Z" fill="url(#tail)" opacity=".8"/>
   <circle r="4.5" fill="url(#planet)"/>
   <text x="10" y="-10" font-size="12" class="serif">{esc(v["name"])}</text>
-  <text x="10" y="4" font-size="9.5" class="mut">{esc(v["status"])}</text>
 </g>''')
     g.append(f'''<text x="48" y="64" font-size="40" class="serif" letter-spacing="3">PIIIX</text>
-<text x="48" y="88" font-size="12" class="mut">Planet III of star X · building in the open</text>
-<text x="48" y="{H-40}" font-size="10.5" class="mut">one star, six bodies · size = commits · distance from the star = distance from shipped</text>
-<text x="48" y="{H-24}" font-size="10.5" class="mut">observed {data["fetched"]} · not to scale</text>
 </svg>''')
     write("system.svg", "\n".join(g))
 
@@ -217,8 +210,7 @@ def ephemeris(data):
 <line x1="0" y1=".5" x2="{W}" y2=".5" stroke="{RULE}"/><line x1="0" y1="{H-.5}" x2="{W}" y2="{H-.5}" stroke="{RULE}"/>
 <g transform="translate(22,{H/2})"><ellipse rx="11" ry="4.2" fill="none" stroke="{STARS}" stroke-opacity=".4"/><circle r="2.6" fill="{ORANGE}"/>
 <g transform="scale(1,.38)"><g class="spin"><circle cx="11" cy="0" r="2.2" fill="{dot}"/></g></g></g>
-<text x="44" y="19" font-size="15" class="serif">{esc(b["name"])}</text>
-<text x="44" y="33" font-size="9.5" class="mut">{esc(b["role"])}</text>
+<text x="44" y="27" font-size="15" class="serif">{esc(b["name"])}</text>
 {''.join(cells)}
 </svg>'''
         write(f"ephemeris/{b['key']}.svg", svg)
@@ -236,7 +228,6 @@ def ephemeris(data):
 <line x1="0" y1=".5" x2="{W}" y2=".5" stroke="{RULE}"/><line x1="0" y1="{H-.5}" x2="{W}" y2="{H-.5}" stroke="{RULE}"/>
 <circle cx="22" cy="{H/2}" r="5" fill="{ORANGE}"/>
 {''.join(cells)}
-<text x="{W-16}" y="27" font-size="10" text-anchor="end" class="mut">observed {data["fetched"]}</text>
 </svg>'''
     write("almanac.svg", svg)
 
@@ -253,7 +244,7 @@ def lightcurve(data):
     while w <= end:
         weeks.append(w)
         w += dt.timedelta(days=7)
-    L, R, T, ROW, GAP = 300, 40, 44, 46, 10
+    L, R, T, ROW, GAP = 220, 40, 44, 40, 10
     W = 900
     H = T + len(BODIES) * (ROW + GAP) + 36
     px = (W - L - R) / max(len(weeks) - 1, 1)
@@ -265,7 +256,7 @@ def lightcurve(data):
 @media (prefers-reduced-motion: reduce){{.trace{{stroke-dashoffset:0}}}}</style>
 <rect width="{W}" height="{H}" fill="{GROUND}"/>
 <text x="24" y="24" font-size="14" class="serif">Light curve</text>
-<text x="130" y="24" font-size="10" class="mut">commits per week, {weeks[0].isoformat()} → {data["fetched"]}</text>''']
+''']
     # month ticks
     for i, wk in enumerate(weeks):
         if wk.day <= 7:
@@ -279,7 +270,6 @@ def lightcurve(data):
         base = y + ROW
         g.append(f'<line x1="{L}" y1="{base}" x2="{W-R}" y2="{base}" stroke="{RULE}"/>')
         g.append(f'<text x="24" y="{y+18}" font-size="13" class="serif">{esc(b["name"])}</text>')
-        g.append(f'<text x="24" y="{y+33}" font-size="9.5" class="mut">{d["commits"]} commits · peak {peak}/wk · last {d["last"]}</text>')
         pts = []
         for i, wk in enumerate(weeks):
             v = d["weekly"].get(wk.isoformat(), 0)
@@ -310,9 +300,7 @@ def footer(data):
 <g clip-path="url(#sky)"><circle cx="{W-160}" cy="{H-26}" r="70" fill="url(#corona)"/><circle cx="{W-160}" cy="{H-26}" r="18" fill="url(#star)"/></g>
 <rect y="{H-28}" width="{W}" height="28" fill="#141312"/>
 <line x1="0" y1="{H-28}" x2="{W}" y2="{H-28}" stroke="{RULE}"/>
-<text x="48" y="{H-9}" font-size="11">github.com/PIIIX-org · figures regenerated by profile/forge.py · observed {data["fetched"]}</text>
 <text x="48" y="52" font-size="22" class="serif">PIIIX</text>
-<text x="48" y="72" font-size="11">Planet III of star X</text>
 </svg>'''
     write("footer.svg", svg)
 

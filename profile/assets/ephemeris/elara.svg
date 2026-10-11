@@ -5,7 +5,6 @@
 <line x1="0" y1=".5" x2="900" y2=".5" stroke="#434241"/><line x1="0" y1="43.5" x2="900" y2="43.5" stroke="#434241"/>
 <g transform="translate(22,22.0)"><ellipse rx="11" ry="4.2" fill="none" stroke="#d8d4cf" stroke-opacity=".4"/><circle r="2.6" fill="#fd9f13"/>
 <g transform="scale(1,.38)"><g class="spin"><circle cx="11" cy="0" r="2.2" fill="#fd9f13"/></g></g></g>
-<text x="44" y="19" font-size="15" class="serif">Elara</text>
-<text x="44" y="33" font-size="9.5" class="mut">second brain</text>
+<text x="44" y="27" font-size="15" class="serif">Elara</text>
 <text x="250" y="15" font-size="8.5" class="mut" letter-spacing="1">STATUS</text><text x="250" y="31" font-size="12">in testing</text><text x="400" y="15" font-size="8.5" class="mut" letter-spacing="1">COMMITS</text><text x="400" y="31" font-size="12">684</text><text x="512" y="15" font-size="8.5" class="mut" letter-spacing="1">MERGED PRS</text><text x="512" y="31" font-size="12">281</text><text x="624" y="15" font-size="8.5" class="mut" letter-spacing="1">FIRST LIGHT</text><text x="624" y="31" font-size="12">2026-07-09</text><text x="736" y="15" font-size="8.5" class="mut" letter-spacing="1">LAST COMMIT</text><text x="736" y="31" font-size="12">2026-10-11</text><text x="848" y="15" font-size="8.5" class="mut" letter-spacing="1">SOURCE</text><text x="848" y="31" font-size="12">public</text>
 </svg>
