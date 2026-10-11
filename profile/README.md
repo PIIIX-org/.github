@@ -28,7 +28,7 @@ Last observed 2026-10-11.
 <img src="https://raw.githubusercontent.com/PIIIX-org/.github/forge/system/profile/assets/ephemeris/elara.svg" width="100%" alt="Elara ephemeris: status in testing, 684 commits, 281 merged pull requests, first light 2026-07-09, last commit 2026-10-11, source public."/>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/PIIIX-org/chapters/main/assets/hero.svg" width="100%" alt="Elara's own banner: the Knowledge Engine Observatory flight deck."/>
+<img src="https://raw.githubusercontent.com/PIIIX-org/chapters/dev/assets/hero.svg" width="100%" alt="Elara's own banner: the Knowledge Engine Observatory flight deck."/>
 </div>
 
 A self-hostable second brain. Notes are plain markdown files on disk, in the
