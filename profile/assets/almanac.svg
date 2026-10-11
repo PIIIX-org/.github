@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 44" width="100%" role="img" aria-label="PIIIX almanac: license MIT, contributing by fork, pull request and CLA, 6 bodies, 1 star">
+<style>text{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#f5f9fb} .mut{fill:#a8a29b}</style>
+<rect width="900" height="44" fill="#0b0a09"/>
+<line x1="0" y1=".5" x2="900" y2=".5" stroke="#434241"/><line x1="0" y1="43.5" x2="900" y2="43.5" stroke="#434241"/>
+<circle cx="22" cy="22.0" r="5" fill="#fd9f13"/>
+<text x="44" y="15" font-size="8.5" class="mut" letter-spacing="1">LICENSE</text><text x="44" y="31" font-size="12">MIT</text><text x="134" y="15" font-size="8.5" class="mut" letter-spacing="1">CONTRIBUTING</text><text x="134" y="31" font-size="12">fork · PR · sign the CLA</text><text x="354" y="15" font-size="8.5" class="mut" letter-spacing="1">BODIES</text><text x="354" y="31" font-size="12">6</text><text x="444" y="15" font-size="8.5" class="mut" letter-spacing="1">STAR</text><text x="444" y="31" font-size="12">1</text>
+</svg>
