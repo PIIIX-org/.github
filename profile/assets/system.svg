@@ -210,10 +210,10 @@
 <g transform="translate(720,250) scale(1,0.38) rotate(320)">
   <g class="spin" style="animation-duration:38s"><g transform="translate(200,0)">
     <g class="spin rev" style="animation-duration:38s"><g transform="rotate(-320) scale(1,2.632)">
-      <circle r="13.8" fill="url(#planet)"/>
-<text y="30" text-anchor="middle" font-size="12" class="serif">Elara</text>
-<ellipse rx="27.782938603771477" ry="10.6" fill="none" stroke="#d8d4cf" stroke-opacity=".3" stroke-width=".8"/>
-<g transform="scale(1,0.38)"><g class="spin" style="animation-duration:9s"><g transform="translate(27.782938603771477,0)"><g class="spin rev" style="animation-duration:9s"><g transform="scale(1,2.632)">
+      <circle r="15.3" fill="url(#planet)"/>
+<text y="31" text-anchor="middle" font-size="12" class="serif">Elara</text>
+<ellipse rx="29.307381343352745" ry="11.1" fill="none" stroke="#d8d4cf" stroke-opacity=".3" stroke-width=".8"/>
+<g transform="scale(1,0.38)"><g class="spin" style="animation-duration:9s"><g transform="translate(29.307381343352745,0)"><g class="spin rev" style="animation-duration:9s"><g transform="scale(1,2.632)">
 <circle r="3.2" fill="url(#dim)"/>
 </g></g></g></g></g>
     </g></g>
